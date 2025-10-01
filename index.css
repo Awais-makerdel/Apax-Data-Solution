@@ -383,3 +383,68 @@ section {
     box-shadow: 0 10px 30px rgba(10,37,64,0.08);
   }
 }
+/* HERO IMPROVEMENTS */
+.cta-row.center {
+  justify-content: center;
+}
+
+.btn-primary.large, .btn-ghost.large {
+  font-size: 18px;
+  padding: 14px 28px;
+}
+
+.hero-stats-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: #fff;
+  color: var(--navy);
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.stat-card strong {
+  font-size: 22px;
+  display: block;
+  color: var(--gold);
+}
+
+.stat-card span {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Table Styling */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.mock-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.mock-dashboard th, .mock-dashboard td {
+  padding: 8px 10px;
+  border: 1px solid #e6eef6;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.mock-dashboard th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 600;
+}
+
+.mock-dashboard td {
+  background: #fff;
+}
+
